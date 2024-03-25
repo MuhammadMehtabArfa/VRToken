@@ -5,7 +5,7 @@ import Button from "../shared/Button";
 const Cardone = ({ img, desc, descfade, ...buttonProps }) => {
   return (
     <div className="flex flex-col items-center py-5 px-4 mt-5 md:flex-row md:justify-around gap-5 ">
-      <div className="w-[270px] h-[280px] sm:w-[370px] md:w-[450px] lg:w-[528px] sm:h-[360px] md:h-[442px] lg:h-[521px] md:mr-5  relative md:mr-5">
+      <div className="w-[270px] h-[280px] sm:w-[370px] md:w-[450px] lg:w-[528px] sm:h-[360px] md:h-[442px] lg:h-[521px] md:mr-5  relative">
         <Image src={img} alt="" fill />
       </div>
       <div className="w-[50%] gap-[10px]" >
