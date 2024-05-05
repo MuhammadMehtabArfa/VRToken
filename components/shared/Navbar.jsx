@@ -4,7 +4,7 @@ import Link from "next/link";
 import Button from "./Button";
 const Navbar = () => {
   return (
-    <nav className="   flex justify-between bg-gradient-to-r from-gray-800 to-purple-700 max-container sm:text-[13px] lg:text-[16px] md:text-[10px] text-[8px] py-3 px-12">
+    <nav className="   flex justify-between bg-gradient-to-r from-gray-800 to-purple-700 max-container sm:text-[13px] lg:text-[16px]  md:text-[10px] text-[8px] py-3 px-12">
       <div className="flex gap-2 pl-3">
         <Link href="/">
           <Image

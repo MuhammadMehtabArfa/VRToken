@@ -37,7 +37,7 @@ const Whitepaper = () => {
             descfade="Self custody of your funds, as it should be"
             type="button"
             title="Learn more"
-            style="bg-gradient-to-r from-sky-300 to-purple-500 text-white text-[16px] font-bold px-[10px] py-[5px] md:px-[16px] md:py-[8px] md:px-[22px] md:py-[11px] md:px-[30px] md:py-[15px]hover:pointer mt-[15px]"
+            style="bg-gradient-to-r from-sky-300 to-purple-500 text-white text-[16px] font-bold px-[10px] py-[5px] md:px-[16px] md:py-[8px] md:px-[22px] md:py-[11px] md:px-[30px] md:py-[15px] hover:pointer mt-[15px]  "
           />
           <Cardone
             img="/cardone_3.png"
@@ -59,7 +59,7 @@ const Whitepaper = () => {
           </h1>
         </div>
       </section>
-      <section className="grid grid-cols-3 gap-10 bg-gradient-to-r from-gray-800 to-purple-700 justify-around pt-[50px]">
+      <section className="flex flex-wrap gap-10 bg-gradient-to-r from-gray-800 overflow-hidden to-purple-700 justify-around pt-[50px]">
         <Cardtwo
           logo="/logo.png"
           img="/cardone_3.png"

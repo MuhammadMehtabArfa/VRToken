@@ -4,8 +4,8 @@ import Image from "next/image";
 const Cardonel = ({ img, desc, descfade, ...buttonProps }) => {
   return (
     <div
-      className="flex flex-col gap-5 
-    items-center  md:flex-row md:justify-around py-5 px-4 mt-5"
+      className="flex  flex-col-reverse gap-5 
+    items-center overflow-hidden  md:flex-row md:justify-around py-5 px-4 mt-5"
     >
       <div className=" w-[50%]  ">
         <h1 className=" text-white font-Oswald text-[20px] sm:text-[28px]  md:text-[38px] lg:text-[49px] font-bold ">
